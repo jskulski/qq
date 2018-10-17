@@ -1,0 +1,39 @@
+PATH
+  remote: .
+  specs:
+    qq (0.1.0)
+      debug_inspector
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    debug_inspector (0.0.3)
+    diff-lcs (1.3)
+    rake (10.4.2)
+    rspec (3.7.0)
+      rspec-core (~> 3.7.0)
+      rspec-expectations (~> 3.7.0)
+      rspec-mocks (~> 3.7.0)
+    rspec-core (3.7.1)
+      rspec-support (~> 3.7.0)
+    rspec-expectations (3.7.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.7.0)
+    rspec-mocks (3.7.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.7.0)
+    rspec-support (3.7.1)
+    timecop (0.9.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.16)
+  qq!
+  rake (~> 10.0)
+  rspec (~> 3.0)
+  timecop (~> 0.9.0)
+
+BUNDLED WITH
+   1.16.3
